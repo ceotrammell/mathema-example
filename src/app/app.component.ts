@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import * as mathema from '../../node_modules/mathema/lib/esm/mathema.js';
+import * as mathema from 'mathema';
 
 @Component({
   selector: 'app-root',
