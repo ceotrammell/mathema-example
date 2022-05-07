@@ -7,7 +7,7 @@
 _"Make Math Merry"_
 
 
-[Mathema](https://github.com/angular/angular-cli) Repository
+[Mathema](https://github.com/ceotrammell/mathema) Repository
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
 
