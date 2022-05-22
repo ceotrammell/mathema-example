@@ -1,0 +1,28 @@
+.html {
+    background-color: #000;
+}
+
+.table tr th { 
+    width:25%;
+    text-align: left; 
+    border: 1px solid rgb(126, 126, 126);
+    color: rgb(219, 219, 219);
+}
+
+th {
+    padding-bottom: 10px;
+}
+
+td {
+    border: 1px solid rgb(126, 126, 126);
+    color: rgb(219, 219, 219);
+}
+
+h1, h2, h3 {
+    color: #fff;
+}
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
