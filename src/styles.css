@@ -2,6 +2,10 @@
     background-color: #000;
 }
 
+.child {
+    display: contents !important;
+}
+
 .table tr th { 
     width:25%;
     text-align: left; 
