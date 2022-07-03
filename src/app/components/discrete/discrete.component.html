@@ -14,7 +14,7 @@ width="100%">
     <tr>
         <h3>GCD (Euclidean Algorithm)</h3>
     </tr>
-    
+
     <tr>
         <td>discrete.gcd.pair()</td>
         <td>x: 80, y: 44</td>
@@ -33,6 +33,46 @@ width="100%">
         <br>
         {{ gcdarr(this.arr_in_arr) }}
         </td>
+    </tr>
+
+    <tr>
+        <h3>Set Intersections & Unions:</h3>
+    </tr>
+
+    <tr>
+        <td>discrete.sets.intersection()</td>
+        <td>
+        a: ["a", "b", "c", ["e"]];
+        <br>
+        b: ["b", "f", ["g"]];
+        </td>
+        <td>{{ intersection() }}</td>
+    </tr>
+
+    <tr>
+        <td>discrete.sets.union()</td>
+        <td>
+        a: ["a", "b", "c", ["e"]];
+        <br>
+        b: ["b", "f", ["g"]];
+        </td>
+        <td>{{ union() }}</td>
+    </tr>
+
+    <tr>
+        <h3>Combinations & Permutations:</h3>
+    </tr>
+
+    <tr>
+        <td>discrete.combination.ncr()</td>
+        <td>n: 10, r: 4</td>
+        <td>{{ ncr() }}</td>
+    </tr>
+
+    <tr>
+        <td>discrete.permutation.npr()</td>
+        <td>n: 10, r: 4, o: true</td>
+        <td>{{ npr() }}</td>
     </tr>
 
 </table>
