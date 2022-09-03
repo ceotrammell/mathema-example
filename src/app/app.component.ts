@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import * as mathema from 'mathema';
 
 @Component({
   selector: 'app-root',
