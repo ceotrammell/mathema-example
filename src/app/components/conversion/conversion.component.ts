@@ -15,16 +15,18 @@ export class ConversionComponent implements OnInit {
   }
 
   conversionArea() {
-    return mathema.conversion.convert('inch', 'centimeter', 11);
+    return mathema.conversion.convert('sq inch', 'sq centimeter', 16);
   }
   conversionLength() {
-    return mathema.conversion.convert('sq inch', 'sq centimeter', 16);
+    // example of short hand conversion types
+    return mathema.conversion.convert('in', 'cm', 11);
   }
   conversionMass() {
     return mathema.conversion.convert('ounce', 'gram', 5);
   }
   conversionTemp() {
-    return mathema.conversion.convert('celsius', 'fahrenheit', 23);
+    // example of short hand conversion types
+    return mathema.conversion.convert('c', 'f', 23);
   }
   conversionVolume() {
     return mathema.conversion.convert('teaspoon', 'milliliter', 3);
