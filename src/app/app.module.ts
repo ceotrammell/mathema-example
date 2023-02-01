@@ -8,6 +8,7 @@ import { AlgebraArithmeticComponent } from './components/algebra/algebra-arithme
 import { AlgebraComponent } from './components/algebra/algebra.component';
 import { DiscreteComponent } from './components/discrete/discrete.component';
 import { ConversionComponent } from './components/conversion/conversion.component';
+import { HelpersComponent } from './components/helpers/helpers.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ConversionComponent } from './components/conversion/conversion.componen
     AlgebraComponent,
     AlgebraArithmeticComponent,
     DiscreteComponent,
-    ConversionComponent
+    ConversionComponent,
+    HelpersComponent,
   ],
   imports: [
     BrowserModule

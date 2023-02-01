@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-
 import * as mathema from 'mathema';
 
 @Component({
@@ -13,7 +12,7 @@ export class ConversionComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  
   conversionArea() {
     return mathema.conversion.convert('sq inch', 'sq centimeter', 16);
   }
