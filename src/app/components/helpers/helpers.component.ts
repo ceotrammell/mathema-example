@@ -26,6 +26,14 @@ export class HelpersComponent implements OnInit {
     return mathema.helpers.flatten(this.arr_in_arr);
   }
 
+  roundTwoDecimals() {
+    return mathema.helpers.round(1.005, 2);
+  }
+
+  roundSixDecimals() {
+    return mathema.helpers.round(1.93456489, 5);
+  }
+
   sliceBuilder() {
     return mathema.helpers.sliceBuilder(this.str, 0, this.inject);
   }
