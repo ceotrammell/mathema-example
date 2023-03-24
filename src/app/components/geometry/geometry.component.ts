@@ -62,7 +62,7 @@ export class GeometryComponent implements OnInit {
   }
 
   triangleAreaASA() {
-    return mathema.geometry.triangle.area.asa(41,6.4,85);
+    return mathema.geometry.triangle.area.asa(6.4,41,85);
   }
 
   triangleAreaHeight() {
