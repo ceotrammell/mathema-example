@@ -18,18 +18,18 @@ export class AlgebraArithmeticComponent implements OnInit {
   }
 
   lcmarr(arr:any) {
-    return mathema.algerbra.arithmetic.lcm.arr(arr);
+    return mathema.algebra.arithmetic.lcm.arr(arr);
   }
 
   lcmpair() {
-    return mathema.algerbra.arithmetic.lcm.pair(25, 155);
+    return mathema.algebra.arithmetic.lcm.pair(25, 155);
   }
 
   gcdpair() {
-    return mathema.algerbra.arithmetic.gcd.pair(80, 44);
+    return mathema.algebra.arithmetic.gcd.pair(80, 44);
   }
 
   gcdarr(arr:any) {
-    return mathema.algerbra.arithmetic.gcd.arr(arr);
+    return mathema.algebra.arithmetic.gcd.arr(arr);
   }
 }
